@@ -1,5 +1,6 @@
 # LogCL, cross-system log analysis includes log parsing and log anomaly detection tasks.
 # Log parsing
+log parsing
 ## SFT
 python train_zmj.py -task SFT
 ## SeqFT
