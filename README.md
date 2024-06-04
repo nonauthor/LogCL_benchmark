@@ -5,9 +5,39 @@ Automated log analysis plays a pivotal role in software operations, with deep le
 
 # Usage
 ## Requirements
-
+numpy==1.23.5
+torch==1.12.1
+transformer==4.26.0
+huggingface_hub=0.10.1
 ## Structure of Files
+‘’‘
+|-- dataset_cl
+|    |-- datasets_AD
+|    |-- datasets_LP
+|    |-- logs_1k
 
+|-- CL_models
+|    |-- EWC.py
+|    |-- er.py
+|    |-- KD.py
+
+|-- Log_Parsing
+|    |-- benchmark_continual.py
+|    |-- dataset_log.py
+|    |-- evaluation_continual_learning.py
+|    |-- log_parsing_zmj.py
+|    |-- train_zmj.py
+|    |-- evaluation
+
+|-- Log_Parsing
+|    |-- Log_anomaly_detection.py
+|    |-- dataset_log_AD.py
+|    |-- evaluation_continual_learning.py
+|    |-- eval_AD.py
+|    |-- read_results.py
+|    |-- save_csv.py
+|    |-- train_zmj_AD.py
+’‘’
 
 
 # Log parsing
