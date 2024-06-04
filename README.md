@@ -10,7 +10,7 @@ torch==1.12.1
 transformer==4.26.0
 huggingface_hub=0.10.1
 ## Structure of Files
-‘’‘
+```
 |-- dataset_cl
 |    |-- datasets_AD
 |    |-- datasets_LP
@@ -37,7 +37,7 @@ huggingface_hub=0.10.1
 |    |-- read_results.py
 |    |-- save_csv.py
 |    |-- train_zmj_AD.py
-’‘’
+```
 
 
 # Log parsing
